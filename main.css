@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-pc {
+    @apply bg-red-500 border-red-500;
+}
+
+.bg-xb {
+    @apply bg-green-500 border-green-500;
+}
+
+.bg-ps {
+    @apply bg-blue-800 border-blue-800;
+}
+
+::-webkit-scrollbar {
+    @apply w-3;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-sky-500;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-zinc-600;
+}

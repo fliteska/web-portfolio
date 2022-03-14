@@ -4,6 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
+    "finalize": "npx tailwindcss -i ./main.css -o ./tailwind.css --minify",
     "build": "npx tailwindcss -i ./main.css -o ./tailwind.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/fliteska/web-portfolio/issues"
   },
-  "homepage": "https://github.com/fliteska/web-portfolio#readme"
+  "homepage": "https://github.com/fliteska/web-portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.1"
+  }
 }

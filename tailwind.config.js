@@ -1,8 +1,12 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  purge: ["**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        xxs: ['10px', {
+          lineHeight: '14px',
+        }],
+    }},
   },
   variants: {
     extend: {},
