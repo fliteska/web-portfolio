@@ -40,7 +40,7 @@ const mods = [
         tags: ['armor']
     },
     {
-        name: "Carts of The Commonwealth",
+        name: "Carts of The CW",
         img: "/img/CartsOfTheCommonwealth.png",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
         links: [
@@ -99,6 +99,18 @@ const mods = [
     }
 ];
 
+const getIconClassesByTag = tag => {
+    switch (tag) {
+        case "weapon": return ["fa-solid", "fa-gun"];
+        case "utility": return ["fa-solid", "fa-toolbox"];
+        case "settlement": return ["fa-solid", "fa-house"];
+        case "new worlds": return ["fa-solid", "fa-map-location-dot"];
+        case "armor": return ["fa-solid", "fa-shield"];
+        case "workshop": return ["fa-solid", "fa-screwdriver-wrench"];
+        default: return [];
+    }
+}
+
 const modSection = document.querySelector("#mods");
 const modTemplate = document.querySelector("#mod-template");
 const downloadBtnTemplate = document.querySelector("#download-button-template");
@@ -111,7 +123,10 @@ mods.map(mod => {
     clone.querySelector("p").innerHTML = mod.description;
     mod.tags.map(tag => {
         const tagEl = tagTemplate.content.cloneNode(true);
-        tagEl.querySelector("span").innerHTML = tag;
+        tagEl.querySelector("span").setAttribute("title", tag);
+        const iconClasses = getIconClassesByTag(tag);
+        console.log(iconClasses)
+        iconClasses.map(iconClass => tagEl.querySelector("i").classList.add(iconClass));
         clone.querySelector('.tags').appendChild(tagEl);
     });
     mod.links.map(link => {

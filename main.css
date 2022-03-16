@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --color-primary: #007FB8;
+    --color-secondary: #3A4856;
+    --color-accent: #9EADBD;
+}
+
 .bg-pc {
     @apply bg-red-500 border-red-500;
 }

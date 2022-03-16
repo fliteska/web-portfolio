@@ -37,8 +37,8 @@
         <article class="bg-zinc-600/10 text-zinc-100 shadow-xl relative w-full md:w-80 shrink-0 md:snap-always md:snap-center">
             <div class="downloads absolute right-0"></div>
             <img class="aspect-video bg-sky-500/10" alt="">
-            <section class="py-8 px-4 flex flex-col justify-between gap-4">
-                <strong class="uppercase text-sm"></strong>
+            <section class="py-8 px-4 flex flex-col justify-between gap-4 relative -top-16">
+                <strong class="bg-zinc-600 shrink p-4 uppercase font-black"></strong>
                 <div class="tags flex gap-4"></div>
                 <p class="text-sm mb-8 flex-grow"></p>
             </section>
@@ -46,11 +46,13 @@
     </template>
     <template id="download-button-template">
         <a class="text-zinc-100 flex items-center justify-center w-12 h-12 transition-colors duration-1000 ease-in-out border hover:bg-zinc-900" target="_blank">
-            <i class="fa fa-fw"></i>
+            <i class="fa-fw"></i>
         </a>
     </template>
     <template id="tags-template">
-        <span class="rounded-full text-xxs font-bold tracking-wider text-zinc-100 border border-sky-500 uppercase px-2"></span>
+        <span class="flex items-center justify-center text-sm w-8 h-8 text-zinc-100 bg-sky-500">
+            <i class="fa-fw"></i>
+        </span>
     </template>
     <script src="main.js"></script>
 </body>
