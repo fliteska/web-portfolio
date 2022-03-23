@@ -4,11 +4,11 @@ const mods = [
         img: "/img/wabbagat.png",
         description: "Sheogorath has found his way into Boston and lost his Wabbagat, a gun inspired by the Wabbajack from The Elder Scrolls.",
         links: [
+            { platform: "YT", url: "https://www.youtube.com/watch?v=JFARezP5qGI" },
             { platform: "PC", url: "https://www.nexusmods.com/fallout4/mods/57779" },
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4255551" }
         ],
-        tags: ['weapon']
-        
+        tags: ['weapon'],
     },
     {
         name: "SCP Foundation",
@@ -25,6 +25,7 @@ const mods = [
         img: "/img/WorkshopRotation.png",
         description: "Allows users on XB1 to rotate objects on different axises.",
         links: [
+            { platform: "YT", url: "https://www.youtube.com/watch?v=iTY6s8RxqCY" },
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4127315" }
         ],
         tags: ['utility']
@@ -147,6 +148,12 @@ mods.map(mod => {
                 downloadBtn.querySelector("i").classList.add("fas");
                 downloadBtn.querySelector("i").classList.add("fa-desktop");
                 downloadBtn.querySelector("a").classList.add("bg-pc");
+                break;
+            case "YT":
+                downloadBtn.querySelector("i").classList.add("fab");
+                downloadBtn.querySelector("i").classList.add("fa-youtube");
+                downloadBtn.querySelector("a").classList.add("bg-yt");
+                downloadBtn.querySelector("a").setAttribute('title', "Watch on YouTube");
                 break;
         }
         downloadBtn.querySelector("a").setAttribute("href", link.url);

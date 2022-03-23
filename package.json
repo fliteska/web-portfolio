@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx tailwindcss -i ./main.css -o ./tailwind.css --minify",
     "dev": "npx tailwindcss -i ./main.css -o ./tailwind.css -w",
-    "images": "imagemin assets/img/* --out-dir=img",
+    "images": "imagemin assets/img/* --plugin=pngquant --quality=0.2 --out-dir=img",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

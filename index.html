@@ -32,12 +32,12 @@
     <template id="mod-template">
         <!-- <article class="bg-zinc-600/10 text-zinc-100 shadow-xl relative"> -->
         <article class="bg-zinc-600/10 text-zinc-100 shadow-xl relative w-full shrink-0 md:snap-always md:snap-center">
-            <div class="downloads absolute right-0"></div>
+            <div class="downloads absolute right-0 flex"></div>
             <img class="aspect-video bg-sky-500/10" alt="">
-            <section class="pt-8 px-4 flex flex-col justify-between gap-4 relative -top-16">
-                <strong class="bg-zinc-600 shrink p-4 uppercase font-black text-xs"></strong>
-                <div class="tags flex gap-4"></div>
-                <p class="text-sm flex-grow"></p>
+            <section class="flex flex-col justify-between gap-4 relative">
+                <strong class="bg-zinc-600 shrink p-4 uppercase font-black text-xs flex items-center justify-between"></strong>
+                <div class="tags flex gap-4 py-2 px-4"></div>
+                <p class="text-sm flex-grow px-4 pb-4"></p>
             </section>
         </article>
     </template>

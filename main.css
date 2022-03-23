@@ -9,7 +9,7 @@
 }
 
 .bg-pc {
-    @apply bg-red-500 border-red-500;
+    @apply bg-yellow-500 border-yellow-500;
 }
 
 .bg-xb {
@@ -18,6 +18,10 @@
 
 .bg-ps {
     @apply bg-blue-800 border-blue-800;
+}
+
+.bg-yt {
+    @apply bg-[#FF0000] border-[#FF0000];
 }
 
 ::-webkit-scrollbar {
