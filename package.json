@@ -4,8 +4,9 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "finalize": "npx tailwindcss -i ./main.css -o ./tailwind.css --minify",
-    "build": "npx tailwindcss -i ./main.css -o ./tailwind.css -w",
+    "build": "npx tailwindcss -i ./main.css -o ./tailwind.css --minify",
+    "dev": "npx tailwindcss -i ./main.css -o ./tailwind.css -w",
+    "images": "imagemin assets/img/* --out-dir=img",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
