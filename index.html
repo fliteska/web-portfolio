@@ -12,20 +12,17 @@
 
 <body class="bg-zinc-900">
     <div class="max-w-7xl mx-auto mb-12">
-        <nav class="flex justify-between items-center flex-col md:flex-row">
+        <nav class="flex justify-between items-center flex-col md:flex-row mb-8 md:mb-0">
             <h1 class="font-extrabold tracking-widest text-4xl text-gray-100 uppercase p-4 md:py-6">Fliteska</h1>
+            <a title="Subscribe to Fliteska on YouTube"
+                class="bg-[#FF0000] text-white border border-transparent hover:bg-[#282828] hover:border-[#FF0000] font-bold p-2 transition-colors duration-1000 ease-in-out"
+                href="https://www.youtube.com/fliteska?sub_confirmation=1"
+                target="_blank">
+                <i class="fab fa-youtube mr-2"></i>
+                Subscribe
+            </a>
         </nav>
         <main class="space-y-12">
-            <section class="bg-zinc-600/10 text-white p-8 shadow-xl">
-                <article class="space-y-8">
-                    <p class="text-xl leading-8">Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Officia error atque minus! Quisquam aliquid aliquam suscipit fugit id eius debitis eum, at
-                        accusantium dolore totam, accusamus blanditiis magnam temporibus provident soluta impedit quidem
-                        sed sint? Iusto, quas! Veniam corrupti illum amet dolore, exercitationem assumenda sunt iste
-                        culpa iure porro suscipit?</p>
-                    <p class="text-zinc-100/50"></p>
-                </article>
-            </section>
             <section id="mods" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             </section>
             <!-- <section id="mods" class="flex gap-12 flex-col md:flex-row md:snap-x md:overflow-x-auto">
@@ -37,10 +34,10 @@
         <article class="bg-zinc-600/10 text-zinc-100 shadow-xl relative w-full shrink-0 md:snap-always md:snap-center">
             <div class="downloads absolute right-0"></div>
             <img class="aspect-video bg-sky-500/10" alt="">
-            <section class="py-8 px-4 flex flex-col justify-between gap-4 relative -top-16">
-                <strong class="bg-zinc-600 shrink p-4 uppercase font-black"></strong>
+            <section class="pt-8 px-4 flex flex-col justify-between gap-4 relative -top-16">
+                <strong class="bg-zinc-600 shrink p-4 uppercase font-black text-xs"></strong>
                 <div class="tags flex gap-4"></div>
-                <p class="text-sm mb-8 flex-grow"></p>
+                <p class="text-sm flex-grow"></p>
             </section>
         </article>
     </template>

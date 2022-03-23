@@ -2,7 +2,7 @@ const mods = [
     {
         name: "The Wabbagat",
         img: "/img/wabbagat.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
+        description: "Sheogorath has found his way into Boston and lost his Wabbagat, a gun inspired by the Wabbajack from The Elder Scrolls.",
         links: [
             { platform: "PC", url: "https://www.nexusmods.com/fallout4/mods/57779" },
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4255551" }
@@ -13,7 +13,7 @@ const mods = [
     {
         name: "SCP Foundation",
         img: "/img/default-mod-image.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
+        description: "Adds craftable SCP themed objects to the build menu.",
         links: [
             { platform: "PC", url: "https://www.nexusmods.com/fallout4/mods/49314" },
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4194418" }
@@ -23,7 +23,7 @@ const mods = [
     {
         name: "Workshop Rotation",
         img: "/img/WorkshopRotation.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
+        description: "Allows users on XB1 to rotate objects on different axises.",
         links: [
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4127315" }
         ],
@@ -32,7 +32,7 @@ const mods = [
     {
         name: "Hooded Synth Helmet",
         img: "/img/HoodedSynthHelmets.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
+        description: "Adds craftable synth helmets with hoods to the chem station.",
         links: [
             { platform: "PC", url: "https://www.nexusmods.com/fallout4/mods/54553" },
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4234354" }
@@ -40,9 +40,9 @@ const mods = [
         tags: ['armor']
     },
     {
-        name: "Carts of The CW",
+        name: "Carts of The Commonwealth",
         img: "/img/CartsOfTheCommonwealth.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
+        description: "Adds craftable carts and buggies to the build menu because how else do settlers carry stuff around without breaking immersion.",
         links: [
             { platform: "PC", url: "https://www.nexusmods.com/fallout4/mods/48318" },
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4185991" }
@@ -52,7 +52,7 @@ const mods = [
     {
         name: "New Worlds Holotape",
         img: "/img/NewWorldsHolotape.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
+        description: "Adds a holotape with access to multiple worldspaces for building settlements.",
         links: [
             { platform: "PC", url: "https://www.nexusmods.com/fallout4/mods/47671" },
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4180698" }
@@ -62,7 +62,7 @@ const mods = [
     {
         name: "The Cove",
         img: "/img/TheCove.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
+        description: "Adds a new island worldspace with a settlement, accessible from the docks by Croup Manor. Also adds a few pirate themed armor mash ups craftable at the chem station.",
         links: [
             { platform: "PC", url: "https://www.nexusmods.com/fallout4/mods/45985" },
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4167563" }
@@ -72,7 +72,7 @@ const mods = [
     {
         name: "Pumpkin Helmet",
         img: "/img/default-mod-image.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
+        description: "Adds the plastic pumpkin as a helmet for halloween, craftable at the chem station.",
         links: [
             { platform: "PC", url: "https://www.nexusmods.com/fallout4/mods/55381" },
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4240373" }
@@ -82,7 +82,7 @@ const mods = [
     {
         name: "Custom Armor Pieces",
         img: "/img/default-mod-image.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
+        description: "Just a random collection of armor mash ups made by request of users.",
         links: [
             { platform: "XB1", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4211767" }
         ],
@@ -91,7 +91,7 @@ const mods = [
     {
         name: "Warehouse Shelves",
         img: "/img/default-mod-image.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur eveniet? Itaque voluptates omnis aut!",
+        description: "Prebuilt Warehouse shelves made by request of users.",
         links: [
             { platform: "PS4", url: "https://bethesda.net/en/mods/fallout4/mod-detail/4209815" }
         ],
